@@ -73,9 +73,9 @@ QUERY;
 		}
 		if(!empty($condition_list)) {
 			return 'WHERE '.implode(' AND ', $condition_list);
-		} else {
-			return '';
 		}
+		
+		return '';
 	}
 
 	/**
@@ -109,8 +109,6 @@ QUERY;
 			} else {
 				$list[ $id ]['city'].= ', '.$row['city'];
 			}
-
-		    $rows[] = $row;
 		}
 
 		//удаляем столбец id
