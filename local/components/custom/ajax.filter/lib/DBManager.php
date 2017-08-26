@@ -1,6 +1,7 @@
 <?
 use Bitrix\Main\Application;
 
+//класс управления запросами к бд
 class DBManager {
 	protected $connection;
 

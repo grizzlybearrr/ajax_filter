@@ -1,6 +1,7 @@
 <?
 use \Bitrix\Main\Context;
 
+//класс обработки ajax запросов
 class AjaxHandler {
 	protected $context; //данные для вывода
 	protected $data; //данные для вывода

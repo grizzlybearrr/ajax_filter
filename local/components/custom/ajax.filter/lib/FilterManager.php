@@ -1,5 +1,5 @@
 <?
-
+//класс обработки поступающих запросов
 class FilterManager {
 	protected $db;
 	protected $ajax;
